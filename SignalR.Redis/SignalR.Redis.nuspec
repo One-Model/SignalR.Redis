@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SignalR.Redis</id>
+    <title>SignalR.Redis</title>
+    <version>1.0.0</version>
+    <authors>OneModel</authors>
+    <owners>OneModel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Modification of https://github.com/SignalR/SignalR/tree/2.2.1/src/Microsoft.AspNet.SignalR.Redis</description>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" />
+      <frameworkAssembly assemblyName="System.Core" />
+    </frameworkAssemblies>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.SignalR.Core" version="2.2.1.0" />
+      <dependency id="StackExchange.Redis" version="1.1.608.0" />
+    </dependencies>
+  </metadata>
+</package>
