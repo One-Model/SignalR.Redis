@@ -3,7 +3,7 @@
   <metadata>
     <id>SignalR.Redis</id>
     <title>SignalR.Redis</title>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>OneModel</authors>
     <owners>OneModel</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,7 +14,7 @@
     </frameworkAssemblies>
     <dependencies>
       <dependency id="Microsoft.AspNet.SignalR.Core" version="2.2.1.0" />
-      <dependency id="StackExchange.Redis" version="1.1.608.0" />
+      <dependency id="StackExchange.Redis" version="1.2.6" />
     </dependencies>
   </metadata>
 </package>
